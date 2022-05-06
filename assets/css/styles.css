@@ -867,10 +867,10 @@ html {
 .card .img {
   display: flex;
   margin: 30px auto 10px auto;
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   background-color: #4bb8ff;
-  border-radius: 50%;
+  border-radius: 20px;
   font-size: 11px;
   justify-content: center;
   align-items: center;
@@ -887,11 +887,12 @@ html {
 }
 
 .card h2 {
-  padding: 15px 10px;
+  padding: 30px 10px 15px 10px;
   font-size: 25px;
   transition: all 0.1s;
   z-index: -99;
-  line-height: 17px;
+  line-height: 26px;
+  margin: 0px 0px;
 }
 
 .card span {
@@ -911,6 +912,7 @@ html {
   font-size: large;
   text-align: center;
   padding-top: 20px;
+  margin: 0px 0px;
 }
 
 .card>p>svg {
