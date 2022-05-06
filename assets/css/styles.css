@@ -839,7 +839,7 @@ html {
   width: 250px;
   height: 400px;
   background: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   transition: all 0.5s;
 }
@@ -847,6 +847,7 @@ html {
 .card:hover {
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
   background-color: #4bb8ff;
+  border-radius: 20px;
 }
 
 .card .blob {
@@ -905,8 +906,11 @@ html {
 }
 
 .card>p {
-  opacity: 0;
+  opacity: 1;
   transition: all 0.75s;
+  font-size: large;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .card>p>svg {
@@ -1057,13 +1061,29 @@ html {
 
 }
 
+#projetosk {
+
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(232, 232, 232);
+  height: 50px;
+  width: 100px;
+
+}
+
+.tituloPartes {
+  font-size: 40px;
+  padding-top: 30px;
+  color: rgb(232, 232, 232);
+}
+
 .caixa-projetos {
   display: flex;
+  margin: auto;
   justify-content: center;
-  background-color: #c0bad7;
   height: 400px;
-  width: 500px;
-  margin-top: 100px;
+  width: 1000px;
+  justify-content: space-around;
 }
 
 .projects {
@@ -1071,8 +1091,7 @@ html {
   text-align: center;
   background-color: rgb(11, 11, 11);
   height: 650px;
-  display: flex;
-  justify-content: center;
+
 }
 
 
