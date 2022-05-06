@@ -84,7 +84,7 @@ html {
 
 .myspot {
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 45px;
 
 }
 
@@ -102,6 +102,8 @@ html {
   background-size: 1860px;
   background-repeat: no-repeat;
   background-position: top;
+  position: relative;
+  top: -110px;
 }
 
 /*===== NAV =====*/
@@ -262,8 +264,8 @@ html {
 
 .arrow {
   position: absolute;
-  top: 807px;
-  left: 1000px;
+  top: 798px;
+  left: 912px;
   transform: translate(-50%, -50%);
 }
 
@@ -468,7 +470,7 @@ html {
 
   /*Add padding body desktop*/
   .body-pd {
-    padding-left: calc(var(--nav-width) + 188px);
+    padding-left: calc(var(--nav-width) + 100px);
   }
 
   .welcome_home {
@@ -534,7 +536,7 @@ html {
   }
 
   .operaGx {
-    width: 60px;
+    width: 70px;
   }
 
   .l-navbar {
@@ -550,7 +552,7 @@ html {
 
   /*Add padding body desktop*/
   .body-pd {
-    padding-left: calc(var(--nav-width) + 188px);
+    padding-left: calc(var(--nav-width) + 92px);
   }
 
 }
@@ -799,7 +801,7 @@ html {
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 40px;
 
   color: rgb(232, 232, 232);
 }
@@ -815,13 +817,13 @@ html {
 .section-profile {
 
   display: inline-block;
-  padding-top: 60px;
+  padding-top: 15px;
 }
 
 .section-profile img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 250px;
 }
 
 
