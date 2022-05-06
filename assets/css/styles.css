@@ -791,6 +791,49 @@ html {
 
 }
 
+.logos {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  margin-left: 297px;
+
+}
+
+.icons {
+  width: 200px;
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+#js {
+  border-radius: 12px;
+}
+
+.icons:hover {
+  transform: scale(1.35);
+}
+
+.redesButton {
+  margin-top: -24px;
+  margin-left: 726px;
+  width: 400px;
+  height: 70px;
+}
+
+
+.botaoRedes {
+  transition: 0.5s;
+  margin-right: 15px;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.botaoRedes:hover {
+  transform: scale(1.25);
+
+}
+
 
 .about_me {
   background-color: rgb(11, 11, 11);
@@ -798,6 +841,7 @@ html {
   border-radius: 10px;
   text-align: center;
   padding-top: 40px;
+  height: 1000px;
 }
 
 .section-title {
@@ -812,6 +856,8 @@ html {
 
 .section-testimonials--name {
   color: #f2f2f2;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .section-profile {
@@ -837,8 +883,8 @@ html {
 }
 
 .section-desc--profile {
-  margin-top: 10px;
-  font-size: 13px;
+  margin-top: 0px;
+  font-size: 22px;
   max-width: 700px;
   color: rgb(215, 215, 215);
   text-align: center;
