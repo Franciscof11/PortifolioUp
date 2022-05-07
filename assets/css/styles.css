@@ -1110,6 +1110,7 @@ html {
   margin-top: 50px;
   text-align: center;
   background-color: rgb(11, 11, 11);
+  height: 400px;
 }
 
 
@@ -1130,4 +1131,11 @@ html {
 
 .section-profile a {
   color: #1793ff;
+}
+
+.caixaFoot{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  background-color: #b4dcff;
 }
