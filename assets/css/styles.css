@@ -1125,17 +1125,24 @@ html {
 .footer_main {
   color: #ffffff;
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  height: 50px;
+}
+
+.footer_main p {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .section-profile a {
   color: #1793ff;
 }
 
-.caixaFoot{
-  height: 500px;
-  width: 500px;
+.caixaFoot {
+  height: 300px;
+  width: 639px;
   display: flex;
   background-color: #b4dcff;
+  margin-left: 600px;
+  margin-top: -40px;
 }
