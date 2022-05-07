@@ -407,7 +407,7 @@ html {
 .numbers {
   color: #b4dcff;
   font-weight: 300;
-  margin: 40px 0px;
+  margin: 25px 0px;
 
 }
 
@@ -1152,11 +1152,15 @@ html {
   margin-top: -40px;
 }
 
+.Sóum{
+  margin: 5px 0px;
+}
+
 /* From uiverse.io by @adamgiebl */
 button {
   font-family: inherit;
   font-size: 20px;
-  background: SpringGreen;
+  background: #00a150;
   color: white;
   padding: 0.4em 0.8em;
   padding-left: 0.5em;
