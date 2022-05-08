@@ -566,9 +566,7 @@ html {
 }
 
 @media (min-width: 300px) and (max-width: 800px) {
-  .main_sc {
-    height: calc(100vh + 100px);
-  }
+  .main_sc {}
 
   .welcome_home h1 {
     border-radius: 0px;
@@ -1293,4 +1291,113 @@ html {
   width: 36px;
   height: 36px;
   margin-left: 25px;
+}
+
+
+
+
+@media(max-width: 500px) {
+
+  .header {
+    left: -20px;
+  }
+
+  .header__toggle {
+    transform: scale(2);
+  }
+
+  .myspot {
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+
+  .operaGx {
+    display: none;
+  }
+
+  .header__toggle {
+    display: none;
+  }
+
+
+  .redesButton {
+    margin-top: -24px;
+    margin-left: 14px;
+    width: 394px;
+    height: 78px;
+  }
+
+  .logos {
+    display: flex;
+    height: 110px;
+    width: 156px;
+    margin-left: 56px;
+    flex-wrap: wrap;
+    margin-left: 144px;
+    transform: scale(2);
+    margin-top: 45px;
+  }
+
+  .icons {
+    width: 35px;
+    transition: 0.5s;
+    margin-right: 16px;
+    margin-bottom: 6px;
+  }
+
+  .about_me {
+    background-color: rgb(11, 11, 11);
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    height: 1225px;
+  }
+
+  body {
+
+    width: auto;
+
+  }
+
+  .main_overflow a {
+    display: none;
+  }
+
+
+  .caixa-projetos {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 400px;
+    width: 326px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .card {
+    width: 250px;
+    height: 400px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 15px 0px;
+  }
+
+  .projects {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(11, 11, 11);
+    height: 1450px;
+  }
+
+
+
+
+
+
+
+
 }
