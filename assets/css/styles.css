@@ -936,6 +936,10 @@ html {
   opacity: 0;
 }
 
+.card:hover .cardBotao {
+  display: block;
+}
+
 
 
 
@@ -1236,9 +1240,9 @@ html {
   border-radius: 0.5em;
   overflow: hidden;
   cursor: pointer;
-  margin-top: -70px;
+  margin-top: -40px;
   margin-left: 55px;
-
+  display: none;
 }
 
 .cardBotao div {
