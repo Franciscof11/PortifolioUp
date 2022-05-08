@@ -1358,7 +1358,8 @@ html {
 
   body {
     margin-top: 56px;
-    width: 400px;
+    width: 412px;
+
   }
 
   .main_overflow a {
@@ -1443,6 +1444,13 @@ html {
     display: flex;
     margin-left: 62px;
     margin-top: -50px;
+  }
+
+  .contactme {
+    margin-top: 36px;
+    text-align: center;
+    background-color: rgb(11, 11, 11);
+    height: 400px;
   }
 
 }
