@@ -910,7 +910,7 @@ html {
 .card:hover h2 {
   opacity: 0;
   width: 100%;
-  position: absolute;
+
   transition: all 0.5s;
 }
 
@@ -933,6 +933,7 @@ html {
   left: 35px;
   opacity: 1;
   transition: all 0.1s;
+  opacity: 0;
 }
 
 
@@ -1157,7 +1158,7 @@ html {
 }
 
 /* From uiverse.io by @adamgiebl */
-button {
+.botaoRede {
   font-family: inherit;
   font-size: 20px;
   background: #4a4747;
@@ -1173,37 +1174,37 @@ button {
   margin-left: 8px;
 }
 
-button span {
+.botaoRede span {
   display: block;
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
 }
 
-button svg {
+.botaoRede svg {
   display: block;
   transform-origin: center center;
   transition: transform 0.3s ease-in-out;
 }
 
-button:hover .svg-wrapper {
+.botaoRede:hover .svg-wrapper {
   animation: fly-1 0.6s ease-in-out infinite alternate;
 
 }
 
-button:hover svg {
+.botaoRede:hover svg {
   transform: translateX(1.2em) rotate(45deg) scale(1.1);
 
 }
 
-button:hover {
+.botaoRede:hover {
   cursor: pointer;
 }
 
-button:hover span {
+.botaoRede:hover span {
   transform: translateX(5em);
 }
 
-button:active {
+.botaoRede:active {
   transform: scale(0.95);
 }
 
@@ -1215,4 +1216,77 @@ button:active {
   to {
     transform: translateY(-0.1em);
   }
+}
+
+
+.azim {
+  height: 53px;
+  width: 142px;
+}
+
+/* From uiverse.io by @Sergestra */
+.cardBotao {
+  outline: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 140px;
+  height: 50px;
+  border-radius: 0.5em;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: -70px;
+  margin-left: 55px;
+
+}
+
+.cardBotao div {
+  transform: translateY(0px);
+  width: 100%;
+}
+
+.cardBotao,
+.cardBotao div {
+  transition: 0.6s cubic-bezier(.16, 1, .3, 1);
+}
+
+.cardBotao div span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0.75em 1.125em;
+}
+
+.cardBotao div:nth-child(1) {
+  background-color: white;
+}
+
+.cardBotao div:nth-child(2) {
+  background-color: #ffffff;
+}
+
+.cardBotao:hover {
+  box-shadow: 0 0.625em 1em 0 black;
+}
+
+.cardBotao:hover div {
+  transform: translateY(-50px);
+}
+
+.cardBotao p {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.cardBotao:active {
+  transform: scale(0.95);
+}
+
+.gitgit {
+  width: 36px;
+  height: 36px;
+  margin-left: 25px;
 }
