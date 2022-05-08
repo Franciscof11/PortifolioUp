@@ -207,14 +207,14 @@ html {
   color: #99000a;
   font-weight: bold;
   padding: 13px 25px;
-
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 2px;
 
-
 }
+
 
 .welcome_home h1::first-line {
   color: #000000;
@@ -1296,7 +1296,7 @@ html {
 
 
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 
   .header {
     left: -20px;
@@ -1309,6 +1309,8 @@ html {
   .myspot {
     margin-top: 15px;
     margin-left: 30px;
+    margin-bottom: 15px;
+    display: none;
   }
 
   .operaGx {
@@ -1394,10 +1396,55 @@ html {
   }
 
 
+  .caixaFoot {
+    height: 300px;
+    width: 639px;
+    display: flex;
+    margin-left: 62px;
+    margin-top: -50px;
+  }
+
+  .Sóum {
+    margin: 26px 0px;
+    font-size: 18px;
+  }
 
 
+  .main_sc {
+    height: 900px;
+    background-color: #a7a7a7;
+    background-image: url(../img/tent2.jpg);
+    background-size: 520px;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    top: -136px;
+  }
+
+  .mydiv {
+    position: relative;
+    top: 260px;
+    transform: scale(0.9);
+  }
 
 
+  .welcome_home h1 {
+    display: inline-block;
+    border-left: 3px solid #000000;
+    border-top: 3px solid #000000;
+    border-right: 3px solid #000000;
+    color: #99000a;
+    font-weight: bold;
+    padding: 13px 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
 
+  .welcome_home {
+    display: block;
+  }
 
 }
