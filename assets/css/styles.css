@@ -1356,10 +1356,9 @@ html {
     height: 1225px;
   }
 
-  body {
-
-    width: auto;
-
+  body {  
+    margin-top: 56px;
+    
   }
 
   .main_overflow a {
