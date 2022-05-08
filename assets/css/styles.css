@@ -1324,7 +1324,7 @@ html {
 
   .redesButton {
     margin-top: -24px;
-    margin-left: 14px;
+    margin-left: 8px;
     width: 394px;
     height: 78px;
   }
@@ -1356,9 +1356,9 @@ html {
     height: 1225px;
   }
 
-  body {  
+  body {
     margin-top: 56px;
-    
+    width: 400px;
   }
 
   .main_overflow a {
@@ -1392,15 +1392,6 @@ html {
     text-align: center;
     background-color: rgb(11, 11, 11);
     height: 1450px;
-  }
-
-
-  .caixaFoot {
-    height: 300px;
-    width: 639px;
-    display: flex;
-    margin-left: 62px;
-    margin-top: -50px;
   }
 
   .Sóum {
@@ -1444,6 +1435,14 @@ html {
 
   .welcome_home {
     display: block;
+  }
+
+  .caixaFoot {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 62px;
+    margin-top: -50px;
   }
 
 }
