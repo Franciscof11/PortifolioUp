@@ -1436,6 +1436,7 @@ html {
 
   .welcome_home {
     display: block;
+    margin-top: 20px;
   }
 
   .caixaFoot {
@@ -1452,5 +1453,6 @@ html {
     background-color: rgb(11, 11, 11);
     height: 400px;
   }
+
 
 }
