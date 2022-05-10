@@ -940,15 +940,13 @@ html {
 
 
 
-
-
 .about_me {
   background-color: rgb(11, 11, 11);
   margin-top: 50px;
   border-radius: 10px;
   text-align: center;
   padding-top: 40px;
-  height: 1000px;
+  height: 1015px;
 }
 
 .section-title {
@@ -1293,7 +1291,48 @@ html {
   margin-left: 25px;
 }
 
+/* From uiverse.io by @Voxybuns */
+.CV {
+  /* Variables */
+  --button_radius: 10px;
+  --button_color: #e8e8e8;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  margin: 9px 0px;
+}
 
+
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.7em 1em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+  cursor: pointer;
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 @media(max-width: 600px) {
@@ -1353,7 +1392,7 @@ html {
     border-radius: 10px;
     text-align: center;
     padding-top: 40px;
-    height: 1225px;
+    height: 1275px;
   }
 
   body {
@@ -1453,6 +1492,7 @@ html {
     background-color: rgb(11, 11, 11);
     height: 400px;
   }
+
 
 
 }
