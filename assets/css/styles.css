@@ -1396,7 +1396,7 @@ button:active .button_top {
   }
 
   body {
-    margin-top: 9px;
+    margin-top: -1px;
     width: 412px;
 
   }
