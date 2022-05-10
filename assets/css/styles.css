@@ -106,6 +106,15 @@ html {
   top: -110px;
 }
 
+#CliqueAqui {
+  font-size: 15px;
+  transition: all 0.1s;
+  z-index: -99;
+  line-height: 26px;
+  margin: 0px 0px;
+
+}
+
 /*===== NAV =====*/
 .l-navbar {
   position: fixed;
@@ -566,7 +575,7 @@ html {
 }
 
 @media (min-width: 300px) and (max-width: 800px) {
-  .main_sc {}
+
 
   .welcome_home h1 {
     border-radius: 0px;
@@ -857,7 +866,7 @@ html {
 }
 
 .card .blob {
-  height: 10px;
+  height: 30px;
   width: 75%;
   border-radius: 0 0 30px 30px;
   margin: 0 auto;
