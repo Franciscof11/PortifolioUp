@@ -814,6 +814,14 @@ html {
   margin-left: 195px;
 }
 
+#dart {
+  width: 167px;
+  transition: 0.5s;
+  margin-right: 20px;
+  height: 71px;
+  margin-top: 22px;
+}
+
 .icons {
   width: 200px;
   transition: 0.5s;
