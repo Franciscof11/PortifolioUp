@@ -88,7 +88,8 @@ html {
 
 .mydiv {
   position: relative;
-  top: 121px;
+  top: 310px;
+  
 }
 
 
@@ -209,15 +210,15 @@ html {
 
 .welcome_home h1 {
   display: inline-block;
-  border-left: 3px solid #000000;
-  border-bottom: 3px solid #000000;
+  border-left: 5px double #000000;
+  border-bottom: 5px double #000000;
   color: #99000a;
   font-weight: bold;
   padding: 13px 25px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 2px;
 
 }
@@ -261,12 +262,8 @@ html {
 
 .welcome_home {
   display: flex;
-
+  text-shadow: 0.1em 0.1em 0.2em black;
   justify-content: center;
-
-
-
-
 }
 
 
@@ -1168,6 +1165,7 @@ html {
 
 .Sóum {
   margin: 5px 0px;
+  
 }
 
 /* From uiverse.io by @adamgiebl */
