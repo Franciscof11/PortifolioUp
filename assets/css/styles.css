@@ -82,7 +82,7 @@ html {
 }
 
 .myspot {
-  margin-top: 4px;
+  margin-top: 15px;
   margin-left: 45px;
 }
 
@@ -93,15 +93,14 @@ html {
 
 
 .main_sc {
-
-  height: 953px;
+  height: 971px;
   background-color: #333;
-  background-image: url('../img/img.jpg');
-  background-size: 1835px;
+  background-image: url(../img/img.jpg);
+  background-size: 1833px;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
-  top: -110px;
+  top: -130px;
 }
 
 #CliqueAqui {
@@ -273,8 +272,8 @@ html {
 
 .arrow {
   position: absolute;
-  top: 798px;
-  left: 912px;
+  top: 900px;
+  left: 920px;
   transform: translate(-50%, -50%);
 }
 
@@ -800,7 +799,7 @@ html {
 
 .main_overflow {
   background-color: rgb(31, 31, 31, 0.7);
-  height: 953px;
+  height: 974px;
 
 }
 
