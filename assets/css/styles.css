@@ -83,9 +83,8 @@ html {
 }
 
 .myspot {
-  margin-top: 15px;
+  margin-top: 4px;
   margin-left: 45px;
-
 }
 
 .mydiv {
@@ -259,7 +258,7 @@ html {
   margin: auto;
   border-radius: 330px;
   width: 261px;
-  margin-top: 80px;
+  margin-top: 73px;
 }
 
 .welcome_home {
@@ -836,10 +835,10 @@ html {
 }
 
 .redesButton {
-  margin-top: -24px;
+  margin-top: -30px;
   margin-left: 726px;
   width: 400px;
-  height: 70px;
+  height: 50px;
 }
 
 
@@ -958,7 +957,7 @@ html {
 
 .about_me {
   background-color: rgb(11, 11, 11);
-  margin-top: 50px;
+  margin-top: 45px;
   border-radius: 10px;
   text-align: center;
   padding-top: 15px;
