@@ -60,7 +60,6 @@ a {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  background-color: #5a5a5a;
   z-index: var(--z-fixed);
   transition: .5s;
 }
@@ -95,10 +94,10 @@ html {
 
 .main_sc {
 
-  height: 900px;
+  height: 953px;
   background-color: #333;
   background-image: url('../img/img.jpg');
-  background-size: 1860px;
+  background-size: 1835px;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
@@ -801,7 +800,7 @@ html {
 
 .main_overflow {
   background-color: rgb(31, 31, 31, 0.7);
-  height: 900px;
+  height: 953px;
 
 }
 
@@ -1456,14 +1455,14 @@ button:active .button_top {
 
 
   .main_sc {
-    height: 900px;
-    background-color: #a7a7a7;
-    background-image: url(../img/tent2.jpg);
-    background-size: 520px;
+    height: 879px;
+    background-color: #333;
+    background-image: url(../img/img.jpg);
+    background-size: 1834px;
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
-    top: -136px;
+    top: -38px;
   }
 
   .mydiv {
