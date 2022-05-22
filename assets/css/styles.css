@@ -257,10 +257,9 @@ html {
 .main_overflow img {
   display: flex;
   margin: auto;
-  border-radius: 120px;
-  width: 250px;
+  border-radius: 330px;
+  width: 261px;
   margin-top: 80px;
-
 }
 
 .welcome_home {
