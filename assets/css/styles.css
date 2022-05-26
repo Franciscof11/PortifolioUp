@@ -86,6 +86,10 @@ html {
   margin-left: 60px;
 }
 
+.pgif {
+  width: 500px;
+}
+
 .mydiv {
   position: relative;
   top: 310px;
@@ -207,6 +211,7 @@ html {
   height: 32px;
   background-color: var(--white-color);
 }
+
 
 .welcome_home h1 {
   display: inline-block;
