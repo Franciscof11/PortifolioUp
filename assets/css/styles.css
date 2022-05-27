@@ -86,9 +86,7 @@ html {
   margin-left: 60px;
 }
 
-.pgif {
-  width: 500px;
-}
+
 
 .mydiv {
   position: relative;
@@ -261,7 +259,7 @@ html {
   margin: auto;
   border-radius: 330px;
   width: 261px;
-  margin-top: 73px;
+  margin-top: 0px;
 }
 
 .welcome_home {
