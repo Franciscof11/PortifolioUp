@@ -1511,6 +1511,9 @@ button:active .button_top {
     height: 370px;
   }
 
+  #dart {
+    display: none;
+  }
 
 
 }
