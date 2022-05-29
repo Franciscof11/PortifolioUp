@@ -812,14 +812,15 @@ html {
   height: 110px;
   width: 109px;
   margin-left: 195px;
+  margin-top: 10px;
 }
 
 #dart {
   width: 167px;
   transition: 0.5s;
   margin-right: 20px;
-  height: 71px;
-  margin-top: 22px;
+  height: 83px;
+  margin-top: 14px;
 }
 
 .icons {
