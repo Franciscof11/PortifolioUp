@@ -964,7 +964,7 @@ html {
   border-radius: 10px;
   text-align: center;
   padding-top: 15px;
-  height: 1305px;
+  height: 1010px;
 }
 
 .section-title {
@@ -1411,7 +1411,7 @@ button:active .button_top {
     border-radius: 10px;
     text-align: center;
     padding-top: 40px;
-    height: 1275px;
+    height: 1305px;
   }
 
   body {
@@ -1501,8 +1501,9 @@ button:active .button_top {
     height: 300px;
     width: 300px;
     display: flex;
-    margin-left: 62px;
-    margin-top: -50px;
+    margin-left: -48px;
+    margin-top: -70px;
+
   }
 
   .contactme {
@@ -1513,6 +1514,10 @@ button:active .button_top {
   }
 
   #dart {
+    display: none;
+  }
+
+  #ignites {
     display: none;
   }
 
