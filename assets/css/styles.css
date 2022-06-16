@@ -1522,4 +1522,10 @@ button:active .button_top {
   }
 
 
+  .main_overflow {
+    background-color: rgb(31, 31, 31, 0.7);
+    height: 879px;
+
+  }
+
 }
